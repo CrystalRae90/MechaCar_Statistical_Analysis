@@ -15,7 +15,7 @@ Looking at the Pr(>|t|)column for each variable, we can determine which ones are
 The pvalue shown from the model is shown to be 5.35e-11. This is much smaller than our assumed significance level of 0.05%. Therefore we can state there is enough evidence to reject the null hypothesis. This means that the slope our linear model is not zero. 
 
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 Given that the r squared value is over 0.7 and the pvalue is under our significance level, it could be concluded that this is a good predictive model for the MechaCar prototypes. 
 
@@ -53,4 +53,25 @@ However, we see that the pvalue for lot 3 is 0.04168 which means that it is stat
 
 
 ## Study Design: MechaCar vs Competition
+
+-What metric or metrics are you going to test?
+
+In comparing MechaCar to its competitors, it would be interesting to look at its costs in relation fuel economy and its safety ratings. 
+
+-What is the null hypothesis or alternative hypothesis?
+
+One null hypothesis would be that there is no statistical difference between the fuel economy of Mechacar and its competitors. Conversely, the alternative would state that there would be a statistical difference between the two data sets. 
+
+-What statistical test would you use to test the hypothesis? And why?
+
+Most likely we could use a two sample t-test compare the findings if there was enough data points in the samples. 
+Another would be to use an ANOVA test. We could look at how mpg affects, costs or its safety ratings in each data set and compare to see if there are any correlations. 
+
+-What data is needed to run the statistical test?
+
+Most likely we would have large samples from both types (MechaCar and its competitors). In expansion of the data provided for its modules, we would need safety rates, costs, again its fuel economy. This would allow us to take the samples accordingly and make the comparisons. 
+
+
+
+
 
